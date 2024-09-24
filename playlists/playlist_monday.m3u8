@@ -1,0 +1,64 @@
+#EXTM3U
+# morning_news
+#EXTINF:-1,morning_news
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1985_KCBS_News.mp4
+#EXTINF:-1,morning_news
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1987_KCBS_News.mp4
+#EXTINF:-1,morning_news
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1979_KCBS_News.mp4
+# game_shows
+#EXTINF:-1,game_shows
+/home/jenny/freenas/Media/m.tv/Password%20(2022)/Season%2002/Password.2022.S02E05.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv
+#EXTINF:-1,game_shows
+/home/jenny/freenas/Media/m.tv/Password%20(2022)/Season%2001/Password.2022.S01E05.1080p.HEVC.x265-MeGusta[eztv.re].mkv
+#EXTINF:-1,game_shows
+/home/jenny/freenas/Media/m.tv/Password%20(2022)/Season%2001/Password.2022.S01E08.1080p.HEVC.x265-MeGusta[eztv.re].mkv
+# soap_operas
+#EXTINF:-1,soap_operas
+/home/jenny/freenas/Media/m.tv/Alcanzar%20una%20Estrella/Season%2001/Alcanzar.una.Estrella.S01E25.1080p.WEBRip.x264.mp4
+# local_news
+# soap_operas
+#EXTINF:-1,soap_operas
+/home/jenny/freenas/Media/m.tv/Alcanzar%20una%20Estrella/Season%2001/Alcanzar.una.Estrella.S01E77.1080p.WEBRip.x264.mp4
+#EXTINF:-1,soap_operas
+/home/jenny/freenas/Media/m.tv/Quinceañera/Quinceanera.S01E54.mp4
+# cartoons
+#EXTINF:-1,cartoons
+/home/jenny/freenas/Media/m.tv/The%20Flintstones/Season%2003/The%20Flintstones%20(1960)%20-%20S03E16%20-%20The%20Kissing%20Burglar%20(1080p%20BluRay%20x265%20Ghost).mkv
+#EXTINF:-1,cartoons
+/home/jenny/freenas/Media/m.tv/Tom%20and%20Jerry%20Kids%20Show/Season%2002/Tom.and.Jerry.Kids.S02E14.Scourge.of.the.Sky.480p.DVDRip.x265.mp4
+#EXTINF:-1,cartoons
+/home/jenny/freenas/Media/m.tv/Rugrats/Season%2001/Rugrats%20(1990)%20-%20S01E16-E17%20-%20Candy%20Bar%20Creep%20Show%20&%20Monster%20In%20The%20Garage%20(480p%20x265%20EDGE2020).mkv
+#EXTINF:-1,cartoons
+/home/jenny/freenas/Media/m.tv/Rugrats/Season%2007/Rugrats%20(1990)%20-%20S07E36%20-%20Pre-School%20Daze%20(480p%20x265%20EDGE2020).mkv
+# evening_news
+#EXTINF:-1,evening_news
+/home/jenny/freenas/Media/m.fillers/news/evening/06pm_1973_KNBC_News.mp4
+# local_news
+# family_series
+#EXTINF:-1,family_series
+/home/jenny/freenas/Media/m.tv/Little%20House%20on%20the%20Prairie/Season%2001/Little%20House%20on%20the%20Prairie%20(1974)%20S01E02%20Country%20Girls%20(1080p%20BDRip%20x265%20crf22%20E-AC3%202.0%20MULTI3)[cHorse].mkv
+#EXTINF:-1,family_series
+/home/jenny/freenas/Media/m.tv/Road%20to%20Avonlea/Season%2007/Road.To.Avonlea.S07E01.1080p.WEBRip.x265-INFINITY.mp4
+# adventure_series
+#EXTINF:-1,adventure_series
+/home/jenny/freenas/Media/m.tv/Hercules/Season%2001/Hercules.S01E11.Hercules.and.the.Tapestry.of.Fate.1080p.UPSCALED.AAC.2.0.H.265.-EDGE2020.mkv
+#EXTINF:-1,adventure_series
+/home/jenny/freenas/Media/m.tv/Walker,%20Texas%20Ranger/Season%2004/Walker,%20Texas%20Ranger%20-%20S04E20%20-%20Behind%20the%20Badge%20(480p%20x265%20EDGE2020).mkv
+# drama_series
+#EXTINF:-1,drama_series
+/home/jenny/freenas/Media/m.tv/Miami%20Vice/Season%2004/Miami.Vice.S04E02.1080p.BluRay.x265-INFINITY.mp4
+#EXTINF:-1,drama_series
+/home/jenny/freenas/Media/m.tv/M-A-S-H/Season%2009/9x18%20-%20Blood%20Brothers.mkv
+#EXTINF:-1,drama_series
+/home/jenny/freenas/Media/m.tv/Miami%20Vice/Season%2002/Miami.Vice.S02E22.1080p.BluRay.x265-INFINITY.mp4
+#EXTINF:-1,drama_series
+/home/jenny/freenas/Media/m.tv/M-A-S-H/Season%2004/4x20%20-%20The%20Novocaine%20Mutiny.mkv
+# late_night_movies
+# off_air
+#EXTINF:-1,off_air
+/home/jenny/freenas/Media/m.fillers/off-air/off-air.mp4
+#EXTINF:-1,off_air
+/home/jenny/freenas/Media/m.fillers/off-air/off-air.mp4
+#EXTINF:-1,off_air
+/home/jenny/freenas/Media/m.fillers/off-air/off-air.mp4
