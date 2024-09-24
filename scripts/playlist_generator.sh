@@ -6,18 +6,19 @@ BASE_DIR_MOVIES="/home/jenny/freenas/Media/m.movie/"
 BASE_DIR_NEWS="/home/jenny/freenas/Media/m.fillers/news/"
 BASE_DIR_OTHER="/home/jenny/freenas/Media/m.fillers/"
 
-# Playlist directory path
-PLAYLIST_DIR="/home/jenny/retro-tv/programming"
+# Playlist directory base path (with subdirectories for each content type)
+PLAYLIST_DIR_BASE="/home/jenny/retro-tv/programming"
 
 # Function to escape spaces in file paths
 escape_spaces() {
     echo "$1" | sed 's/ /%20/g'
 }
 
-# Function to display existing playlists and let the user choose
+# Function to display existing playlists based on content type and let the user choose
 choose_playlist() {
-    echo "Existing playlists:"
-    playlists=($(ls "$PLAYLIST_DIR"/*.txt 2>/dev/null))
+    local playlist_dir="$1"
+    echo "Existing playlists in $playlist_dir:"
+    playlists=($(ls "$playlist_dir"/*.txt 2>/dev/null))
     if [ ${#playlists[@]} -eq 0 ]; then
         echo "No existing playlists found."
         return 1
@@ -33,7 +34,7 @@ choose_playlist() {
         echo "Selected existing playlist: $(basename "$selected_playlist")"
     elif [ "$choice" -eq $(( ${#playlists[@]} + 1 )) ]; then
         read -p "Enter the new playlist name (e.g., 'cartoons.txt'): " new_playlist_name
-        selected_playlist="${PLAYLIST_DIR}/${new_playlist_name}"
+        selected_playlist="${playlist_dir}/${new_playlist_name}"
         echo "Creating new playlist: $new_playlist_name"
     else
         echo "Invalid choice. Exiting."
@@ -53,15 +54,19 @@ read -p "Enter the number corresponding to the content type: " content_type
 case $content_type in
     1)
         BASE_DIR=$BASE_DIR_TV
+        PLAYLIST_DIR="${PLAYLIST_DIR_BASE}/TV"
         ;;
     2)
         BASE_DIR=$BASE_DIR_MOVIES
+        PLAYLIST_DIR="${PLAYLIST_DIR_BASE}/Movies"
         ;;
     3)
         BASE_DIR=$BASE_DIR_NEWS
+        PLAYLIST_DIR="${PLAYLIST_DIR_BASE}/News"
         ;;
     4)
         BASE_DIR=$BASE_DIR_OTHER
+        PLAYLIST_DIR="${PLAYLIST_DIR_BASE}/Other"
         ;;
     *)
         echo "Invalid selection. Exiting."
@@ -69,8 +74,14 @@ case $content_type in
         ;;
 esac
 
+# Ensure the playlist directory exists
+if [ ! -d "$PLAYLIST_DIR" ]; then
+    mkdir -p "$PLAYLIST_DIR"
+    echo "Created playlist directory: $PLAYLIST_DIR"
+fi
+
 # Choose or create playlist
-choose_playlist
+choose_playlist "$PLAYLIST_DIR"
 if [ -z "$selected_playlist" ]; then
     echo "No playlist selected. Exiting."
     exit 1
