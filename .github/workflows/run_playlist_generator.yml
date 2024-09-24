@@ -3,10 +3,10 @@ name: Run Playlist Generator
 on:
   push:
     branches:
-      - main  # Change to your main branch name
+      - main  # Trigger on push to the main branch
   pull_request:
     branches:
-      - main  # Change to your main branch name
+      - main  # Trigger on pull requests to the main branch
 
 jobs:
   generate-playlist:
@@ -14,15 +14,17 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3.5.1
+        uses: actions/checkout@v3.5.1  # Checkout the repository
 
       - name: Set up Bash
         run: |
-          chmod +x scripts/playlist_generator.sh  # Make your script executable
+          # Make your script executable
+          chmod +x retro_tv/scripts/playlist_generator.sh
 
       - name: Run Playlist Generator for Multiple Days
         run: |
-          for day in monday tuesday wednesday thursday friday saturday sunday; do
+          # Run the playlist generator for each day of the week
+          for day in monday tuesday wednesday thursday friday; do
             echo "Generating playlist for $day..."
-            ./scripts/playlist_generator.sh "$day"  # Run the script with the day as a parameter
+            ./retro_tv/scripts/playlist_generator.sh "$day" || { echo "Failed to generate playlist for $day"; exit 1; }
           done
