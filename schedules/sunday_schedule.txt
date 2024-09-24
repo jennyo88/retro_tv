@@ -1,12 +1,12 @@
-religious, 2
-sports, 3
-morning_news, 1
-family_movies, 2
-game_shows, 1
-local_news, 1
-evening_news, 1
-drama_series, 4
-variety_shows, 1
-game_shows, 1
-late_night_movies, 2
-off_air, 3
+religious,2
+sports,3
+morning_news,1
+family_night,2
+game_shows,1
+local_news,1
+evening_news,1
+drama,4
+variety,1
+game_shows,1
+horror_night,2
+off_air,3
