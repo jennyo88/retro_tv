@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Set directories for different content categories
-SCHEDULE_DIR="/home/jenny/retro-tv/schedules"
-TV_DIR="/home/jenny/retro-tv/programming/TV"
-MOVIES_DIR="/home/jenny/retro-tv/programming/Movies"
-NEWS_DIR="/home/jenny/retro-tv/programming/News"
-OTHER_DIR="/home/jenny/retro-tv/programming/Other"
-PLAYLIST_DIR="/home/jenny/retro-tv/playlists"
+SCHEDULE_DIR="/home/jenny/retro_tv/schedules"
+TV_DIR="/home/jenny/retro_tv/programming/TV"
+MOVIES_DIR="/home/jenny/retro_tv/programming/Movies"
+NEWS_DIR="/home/jenny/retro_tv/programming/News"
+OTHER_DIR="/home/jenny/retro_tv/programming/Other"
+PLAYLIST_DIR="/home/jenny/retro_tv/playlists"
 
 # Ask for the day of the week
 clear
