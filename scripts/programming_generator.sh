@@ -1,11 +1,15 @@
 #!/bin/bash
 
-# Set directories
+# Set directories for different content categories
 SCHEDULE_DIR="/home/jenny/retro-tv/schedules"
-PROGRAMMING_DIR="/home/jenny/retro-tv/programming"
+TV_DIR="/home/jenny/retro-tv/programming/TV"
+MOVIES_DIR="/home/jenny/retro-tv/programming/Movies"
+NEWS_DIR="/home/jenny/retro-tv/programming/News"
+OTHER_DIR="/home/jenny/retro-tv/programming/Other"
 PLAYLIST_DIR="/home/jenny/retro-tv/playlists"
 
 # Ask for the day of the week
+clear
 echo "Which day are you working on? (monday/tuesday/wednesday/thursday/friday/saturday/sunday): "
 read day
 
@@ -26,33 +30,48 @@ if [ ! -f "$schedule_file" ]; then
 fi
 
 # Read the schedule file and process each category
-while IFS=, read -r category num_videos; do
-    category=$(echo $category | xargs)  # trim whitespace
-    num_videos=$(echo $num_videos | xargs)  # trim whitespace
+while IFS=, read -r subcategory num_videos; do
+    subcategory=$(echo $subcategory | xargs)  # Trim whitespace
+    num_videos=$(echo $num_videos | xargs)  # Trim whitespace
 
-    # Set the category text file path
-    category_file="${PROGRAMMING_DIR}/${category}.txt"
+    # Map the subcategory to the correct folder
+    case $subcategory in
+        "Adventure"|"Anthology"|"Cartoons"|"Crime"|"Drama"|"Family"|"Game Shows"|"SciFi"|"Sitcoms"|"SNL"|"Soap Operas"|"Talk Shows")
+            category_file="${TV_DIR}/${subcategory}.txt"
+            ;;
+        "Family"|"Saturday"|"Late Night")
+            category_file="${MOVIES_DIR}/${subcategory}.txt"
+            ;;
+        "Morning News"|"Evening News"|"Local News")
+            category_file="${NEWS_DIR}/${subcategory}.txt"
+            ;;
+        "Infomercials"|"Off Air"|"Sports"|"Variety")
+            category_file="${OTHER_DIR}/${subcategory}.txt"
+            ;;
+        *)
+            echo "Warning: Unknown subcategory '$subcategory'. Skipping."
+            continue
+            ;;
+    esac
 
-    # Check if the corresponding category text file exists
+    # Check if the corresponding subcategory file exists
     if [ -f "$category_file" ]; then
-        echo "# $category" >> $playlist
+        echo "# $subcategory" >> $playlist
         
-        # Grab the specified number of random videos from the category
+        # Grab the specified number of random videos from the subcategory file
         count=0
-
-        # Use 'shuf' to shuffle the lines and get the first N videos
         for video in $(shuf -n $num_videos "$category_file"); do
-            echo "#EXTINF:-1,$category" >> $playlist
+            echo "#EXTINF:-1,$subcategory" >> $playlist
             echo "$video" >> $playlist
             ((count++))
         done
 
-        # Warning if not enough videos are available in the category file
+        # Warning if not enough videos are available in the subcategory file
         if [ $count -lt $num_videos ]; then
-            echo "Warning: Only $count videos available in $category_file."
+            echo "Warning: Only $count videos available in $category_file for '$subcategory'."
         fi
     else
-        echo "Warning: Category file not found for $category."
+        echo "Warning: Subcategory file not found: $category_file"
     fi
 done < "$schedule_file"
 
