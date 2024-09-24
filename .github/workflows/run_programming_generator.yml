@@ -1,4 +1,4 @@
-name: Run Playlist Generator
+name: Run Programming Generator
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main  # Trigger on pull requests to the main branch
 
 jobs:
-  generate-playlist:
+  generate-programming:
     runs-on: ubuntu-latest  # Use an OS that supports Node.js 20
 
     env:
@@ -23,12 +23,12 @@ jobs:
       - name: Set up Bash
         run: |
           # Make your script executable
-          chmod +x ./scripts/playlist_generator.sh
+          chmod +x ./scripts/programming_generator.sh
 
       - name: Run Playlist Generator for Multiple Days
         run: |
           # Run the playlist generator for each day of the week
           for day in monday tuesday wednesday thursday friday saturday sunday; do
             echo "Generating playlist for $day..."
-            ./scripts/playlist_generator.sh "$day" || { echo "Failed to generate playlist for $day"; exit 1; }
+            ./scripts/programming_generator.sh "$day" || { echo "Failed to generate programming for $day"; exit 1; }
           done
