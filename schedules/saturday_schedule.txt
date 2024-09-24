@@ -1,0 +1,9 @@
+cartoons, 12
+sports, 3
+variety_shows, 2
+local_news, 1
+game_shows, 1
+saturday_movies, 1
+drama_series, 4
+late_night_movies, 2
+off_air, 3
