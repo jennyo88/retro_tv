@@ -1,0 +1,28 @@
+name: Run Playlist Generator
+
+on:
+  push:
+    branches:
+      - main  # Change to your main branch name
+  pull_request:
+    branches:
+      - main  # Change to your main branch name
+
+jobs:
+  generate-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Bash
+        run: |
+          chmod +x playlist_generator.sh  # Make your script executable
+
+      - name: Run Playlist Generator for Multiple Days
+        run: |
+          for day in monday tuesday wednesday thursday friday saturday sunday; do
+            echo "Generating playlist for $day..."
+            ./playlist_generator.sh "$day"  # Run the script with the day as a parameter
+          done
