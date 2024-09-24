@@ -36,16 +36,16 @@ while IFS=, read -r subcategory num_videos; do
 
     # Map the subcategory to the correct folder
     case $subcategory in
-        "Adventure"|"Anthology"|"Cartoons"|"Crime"|"Drama"|"Family"|"Game Shows"|"SciFi"|"Sitcoms"|"SNL"|"Soap Operas"|"Talk Shows")
+        "adventure"|"anthology"|"cartoons"|"crime"|"drama"|"family"|"game_shows"|"scifi"|"itcoms"|"snl"|"soap_operas"|"talk_shows")
             category_file="${TV_DIR}/${subcategory}.txt"
             ;;
-        "Family"|"Saturday"|"Late Night")
+        "family_night"|"saturday_night"|"horror_night")
             category_file="${MOVIES_DIR}/${subcategory}.txt"
             ;;
-        "Morning News"|"Evening News"|"Local News")
+        "morning_news"|"evening_news"|"local_news")
             category_file="${NEWS_DIR}/${subcategory}.txt"
             ;;
-        "Infomercials"|"Off Air"|"Sports"|"Variety")
+        "infomercials"|"off_air"|"sports"|"variety")
             category_file="${OTHER_DIR}/${subcategory}.txt"
             ;;
         *)
