@@ -23,12 +23,12 @@ jobs:
       - name: Set up Bash
         run: |
           # Make your script executable
-          chmod +x retro_tv/scripts/playlist_generator.sh
+          chmod +x ./scripts/playlist_generator.sh
 
       - name: Run Playlist Generator for Multiple Days
         run: |
           # Run the playlist generator for each day of the week
           for day in monday tuesday wednesday thursday friday saturday sunday; do
             echo "Generating playlist for $day..."
-            ./retro_tv/scripts/playlist_generator.sh "$day" || { echo "Failed to generate playlist for $day"; exit 1; }
+            ./scripts/playlist_generator.sh "$day" || { echo "Failed to generate playlist for $day"; exit 1; }
           done
