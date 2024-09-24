@@ -1,0 +1,13 @@
+morning_news, 3
+game_shows, 3
+soap_operas, 1
+local_news, 1
+soap_operas, 2
+cartoons, 4
+evening_news, 1
+local_news, 1
+family_series, 2
+adventure_series, 2
+anthology_series, 4
+late_night_movies, 2
+off_air, 3
