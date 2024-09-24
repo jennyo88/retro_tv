@@ -12,6 +12,9 @@ jobs:
   generate-playlist:
     runs-on: ubuntu-latest
 
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force Node.js 20
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3.5.1  # Checkout the repository
@@ -24,7 +27,7 @@ jobs:
       - name: Run Playlist Generator for Multiple Days
         run: |
           # Run the playlist generator for each day of the week
-          for day in monday tuesday wednesday thursday friday; do
+          for day in monday tuesday wednesday thursday friday saturday sunday; do
             echo "Generating playlist for $day..."
             ./retro_tv/scripts/playlist_generator.sh "$day" || { echo "Failed to generate playlist for $day"; exit 1; }
           done
