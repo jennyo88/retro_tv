@@ -7,7 +7,7 @@ BASE_DIR_NEWS="/home/jenny/freenas/Media/m.fillers/news/"
 BASE_DIR_OTHER="/home/jenny/freenas/Media/m.fillers/"
 
 # Playlist directory path
-PLAYLIST_DIR="/home/jenny/programming"
+PLAYLIST_DIR="/home/jenny/retro-tv/programming"
 
 # Function to escape spaces in file paths
 escape_spaces() {
@@ -42,6 +42,7 @@ choose_playlist() {
 }
 
 # Prompt user to select content type
+clear
 echo "Select content type:"
 echo "1: TV Shows"
 echo "2: Movies"
