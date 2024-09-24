@@ -7,7 +7,7 @@ BASE_DIR_NEWS="/home/jenny/freenas/Media/m.fillers/news/"
 BASE_DIR_OTHER="/home/jenny/freenas/Media/m.fillers/"
 
 # Playlist directory base path (with subdirectories for each content type)
-PLAYLIST_DIR_BASE="/home/jenny/retro-tv/programming"
+PLAYLIST_DIR_BASE="/home/jenny/retro_tv/programming"
 
 # Function to escape spaces in file paths
 escape_spaces() {
