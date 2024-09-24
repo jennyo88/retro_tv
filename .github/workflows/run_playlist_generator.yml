@@ -18,11 +18,11 @@ jobs:
 
       - name: Set up Bash
         run: |
-          chmod +x playlist_generator.sh  # Make your script executable
+          chmod +x scripts/playlist_generator.sh  # Make your script executable
 
       - name: Run Playlist Generator for Multiple Days
         run: |
           for day in monday tuesday wednesday thursday friday saturday sunday; do
             echo "Generating playlist for $day..."
-            ./playlist_generator.sh "$day"  # Run the script with the day as a parameter
+            ./scripts/playlist_generator.sh "$day"  # Run the script with the day as a parameter
           done
