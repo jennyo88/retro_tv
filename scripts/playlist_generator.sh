@@ -48,7 +48,7 @@ echo "Select content type:"
 echo "1: TV Shows"
 echo "2: Movies"
 echo "3: News"
-echo "4: Infomercials or Off-Air"
+echo "4: Other"
 read -p "Enter the number corresponding to the content type: " content_type
 
 case $content_type in
