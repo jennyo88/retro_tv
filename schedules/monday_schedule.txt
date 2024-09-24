@@ -9,5 +9,5 @@ local_news,1
 family,2
 adventure,2
 drama,4
-late_night,2
+horror_night,2
 off_air,3
