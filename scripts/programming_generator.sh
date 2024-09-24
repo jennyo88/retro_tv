@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set directories
-SCHEDULE_DIR="/home/jenny/schedules"
-PROGRAMMING_DIR="/home/jenny/programming"
-PLAYLIST_DIR="/home/jenny/playlists"
+SCHEDULE_DIR="/home/jenny/retro-tv/schedules"
+PROGRAMMING_DIR="/home/jenny/retro-tv/programming"
+PLAYLIST_DIR="/home/jenny/retro-tv/playlists"
 
 # Ask for the day of the week
 echo "Which day are you working on? (monday/tuesday/wednesday/thursday/friday/saturday/sunday): "
