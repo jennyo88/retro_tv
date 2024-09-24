@@ -10,10 +10,11 @@ on:
 
 jobs:
   generate-playlist:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use an OS that supports Node.js 20
 
     env:
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true  # Force Node.js 20
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force Node.js 20
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true  # Allow use of insecure Node.js version
 
     steps:
       - name: Checkout code
