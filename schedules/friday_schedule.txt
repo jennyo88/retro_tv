@@ -1,13 +1,13 @@
-morning_news, 3
-game_shows, 3
-soap_operas, 1
-local_news, 1
-soap_operas, 2
-cartoons, 4
-evening_news, 1
-local_news, 1
-family_series, 2
-variety_shows, 2
-talk_shows, 4
-late_night_movies, 2
-off_air, 3
+morning_news,3
+game_shows,3
+soap_operas,1
+local_news,1
+soap_operas,2
+cartoons,4
+evening_news,1
+local_news,1
+family,2
+variety,2
+talk_shows,4
+horror_night,2
+off_air,3
