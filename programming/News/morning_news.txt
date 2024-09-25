@@ -1,1 +1,4 @@
-
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1979_KCBS_News.mp4
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1987_KCBS_News.mp4
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1985_KCBS_News.mp4
+/home/jenny/freenas/Media/m.fillers/news/morning/06am_1979_KABCNews.mp4
