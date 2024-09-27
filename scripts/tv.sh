@@ -6,11 +6,18 @@ calculate_playlist_duration() {
     
     total_duration=0
 
+
     # Iterate over each file in the playlist and sum up the durations
     while IFS= read -r video_file; do
         if [ -f "$video_file" ]; then
             # Get video duration using ffprobe (from ffmpeg)
             video_duration=$(ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 "$video_file" 2>/dev/null)
+            
+            if [ -z "$video_duration" ]; then
+                echo "Warning: Could not retrieve duration for $video_file. Skipping..."
+                continue
+            fi
+            
             total_duration=$(echo "$total_duration + $video_duration" | bc)
         fi
     done < "$playlist_path"
