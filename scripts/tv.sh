@@ -127,7 +127,7 @@ case "$current_day" in
             sitcoms_playlist
         elif [ "$current_hour" -ge 21 ] && [ "$current_hour" -lt 23 ]; then
             saturday_night_playlist
-        elif [ "$current_hour" -ge 23 ] && [ "$current_hour" -lt 00 ]; then
+        elif [ "$current_hour" -ge 23 ] && [ "$current_hour" -lt 24 ]; then
             talk_shows_playlist
         elif [ "$current_hour" -ge 00 ] && [ "$current_hour" -lt 02 ]; then
             saturday_night_playlist
@@ -183,7 +183,7 @@ case "$current_day" in
             saturday_night_playlist
         elif [ "$current_hour" -ge 22 ] && [ "$current_hour" -lt 23 ]; then
             sitcoms_playlist
-        elif [ "$current_hour" -ge 23 ] && [ "$current_hour" -lt 00 ]; then
+        elif [ "$current_hour" -ge 23 ] && [ "$current_hour" -lt 24 ]; then
             talk_shows_playlist
         elif [ "$current_hour" -ge 00 ] && [ "$current_hour" -lt 02 ]; then
             horror_night_playlist
