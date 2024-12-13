@@ -13,15 +13,15 @@ https://archive.org/download/hocus-pocus_202312/Hocus%20Pocus.mp4
 https://archive.org/download/ghostbusters-from-the-original-vhs-release-in-1985/Ghostbusters%20from%20the%20Original%20VHS%20Release%20in%201985.ia.mp4
 
 # TV Shows
-#EXTINF:3600 group-title="TV Shows",Cartoon Cartoon Fridays (2000) - Part 1
+#EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 1
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.mp4
-#EXTVLCOPT:sub-file=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.cc5.srt
-#EXTINF:3600 group-title="TV Shows",Cartoon Cartoon Fridays (2000) - Part 2
+#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.cc5.srt
+#EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 2
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.mp4
-#EXTVLCOPT:sub-file=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.cc5.srt
-#EXTINF:3600 group-title="TV Shows",Cartoon Cartoon Fridays (2000) - Part 3
+#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.cc5.srt
+#EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 3
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_3.mp4
-#EXTINF:3660 group-title="TV Shows",Cartoon Cartoon Fridays (2000) - Part 4
+#EXTINF:3660 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 4
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.mp4
-#EXTVLCOPT:sub-file=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.cc5.srt
+#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.cc5.srt
 
