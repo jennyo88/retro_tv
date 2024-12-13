@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:6600,The Thing (1982) - Directed by John Carpenter, Sci-Fi Horror Classic
+#EXTINF:6600 group-title="Sci-Fi Horror",The Thing (1982)
 https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4
-#EXTINF:6120,Casper (1995) - A Friendly Ghost Story with Christina Ricci
+#EXTINF:6120 group-title="Family",Casper (1995)
 https://ia802802.us.archive.org/16/items/casper_201912/CASPER.mp4
-#EXTINF:6240,Hocus Pocus (1993) - A Halloween Family Favorite with Bette Midler
+#EXTINF:6240 group-title="Family",Hocus Pocus (1993)
 https://archive.org/download/hocus-pocus_202312/Hocus%20Pocus.mp4
