@@ -2,26 +2,25 @@
 # Movies
 #EXTINF:6600 group-title="Movies",The Thing (1982)
 https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4
-
 #EXTINF:6120 group-title="Movies",Casper (1995)
 https://ia802802.us.archive.org/16/items/casper_201912/CASPER.mp4
-
 #EXTINF:6240 group-title="Movies",Hocus Pocus (1993)
 https://archive.org/download/hocus-pocus_202312/Hocus%20Pocus.mp4
-
 #EXTINF:6480 group-title="Movies",Ghostbusters (1985)
 https://archive.org/download/ghostbusters-from-the-original-vhs-release-in-1985/Ghostbusters%20from%20the%20Original%20VHS%20Release%20in%201985.ia.mp4
 
 # TV Shows
 #EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 1
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.mp4
-#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.cc5.srt
 #EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 2
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.mp4
-#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.cc5.srt
 #EXTINF:3600 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 3
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_3.mp4
 #EXTINF:3660 group-title="Series",Cartoon Cartoon Fridays (2000) - Part 4
 https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.mp4
-#EXTVLCOPT:tvg-sub=https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.cc5.srt
-
+#EXTINF:5201 group-title="Series",Kids WB (2001) - Part 1
+https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_1.mp4
+#EXTINF:5242 group-title="Series",Kids WB (2001) - Part 2
+https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_2.mp4
+#EXTINF:4529 group-title="Series",Kids WB (2001) - Part 3
+https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_3.mp4
