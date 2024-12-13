@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Custom XMLTV Generator" generator-info-url="https://archive.org">
+    <channel id="the-thing-vhs">
+        <display-name>The Thing Channel</display-name>
+        <icon src="https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4" />
+    </channel>
+
+    <programme start="20241213180000 +0000" stop="20241213195000 +0000" channel="the-thing-vhs">
+        <title lang="en">The Thing (1982 VHS)</title>
+        <desc lang="en">A 1982 science-fiction horror film about a shape-shifting alien in Antarctica.</desc>
+        <category lang="en">Movie</category>
+        <icon src="https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4" />
+    </programme>
+</tv>
