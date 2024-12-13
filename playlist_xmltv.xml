@@ -5,7 +5,7 @@
         <icon src="https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4" />
     </channel>
 
-    <programme start="20241213040000 -0800" stop="20241213055000 -0800" channel="the-thing-vhs">
+    <programme start="20241213120000 +0000" stop="20241213135000 +0000" channel="the-thing-vhs">
         <title lang="en">The Thing (1982 VHS)</title>
         <desc lang="en">A 1982 science-fiction horror film about a shape-shifting alien in Antarctica.</desc>
         <category lang="en">Movie</category>
