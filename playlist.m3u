@@ -1,4 +1,8 @@
 #EXTM3U
+# Christmas Specials
+#EXTINF:6600 group-title="Movies",WJBK Christmas Specials (1990)
+https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4
+
 # Movies
 #EXTINF:6600 group-title="Movies",The Thing (1982)
 https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4
