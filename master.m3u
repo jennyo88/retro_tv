@@ -1,16 +1,16 @@
 #EXTM3U
 # Holidays
 #EXTINF:6600 group-title="Holidays",Christmas Specials
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/christmas_channel.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/holidays/christmas_channel.m3u8
 
 # Movies
 #EXTINF:-1 group-title="Movies",VHS Movies
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies_channel.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/movies_channel.m3u8
 
 # Cartoons
 #EXTINF:-1 group-title="Cartoons",Cartoon Network
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoon_network_channel.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/cartoon_network_channel.m3u8
 #EXTINF:-1 group-title="Cartoons",Kids WB
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/WB_channel.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/WB_channel.m3u8
 #EXTINF:-1 group-title="Cartoons",ABC
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/abc_channel.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/abc_channel.m3u8
