@@ -1,7 +1,7 @@
 #EXTM3U
-# Christmas Specials
-#EXTINF:6600 group-title="Specials",WJBK Christmas Specials (1990)
-https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4
+# Holidays
+#EXTINF:6600 group-title="Holidays",Christmas Specials
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/christmas_channel.m3u8
 
 # Movies
 #EXTINF:-1 group-title="Movies",VHS Movies
