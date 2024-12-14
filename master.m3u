@@ -6,6 +6,8 @@ https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/holiday
 # Movies
 #EXTINF:-1 group-title="Movies",VHS Movies
 https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/movies_channel.m3u8
+#EXTINF:-1 group-title="Movies",Walt Disney Cartoon Classics
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/Walt_Disney_classics_channel.m3u8
 
 # Cartoons
 #EXTINF:-1 group-title="Cartoons",Cartoon Network
