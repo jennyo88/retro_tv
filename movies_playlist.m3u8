@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:6600,The Thing (1982)
+https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4
+#EXTINF:6120,Casper (1995)
+https://ia802802.us.archive.org/16/items/casper_201912/CASPER.mp4
+#EXTINF:6240,Hocus Pocus (1993)
+https://archive.org/download/hocus-pocus_202312/Hocus%20Pocus.mp4
+#EXTINF:6480,Ghostbusters (1985)
+https://archive.org/download/ghostbusters-from-the-original-vhs-release-in-1985/Ghostbusters%20from%20the%20Original%20VHS%20Release%20in%201985.ia.mp4
+#EXT-X-ENDLIST
