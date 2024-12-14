@@ -4,7 +4,7 @@
 https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4
 
 # Movies
-#EXTINF:6600 group-title="Movies"
+#EXTINF:-1 group-title="Movies",Channel 2
 https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/movies_playlist.m3u8
 
 # TV Shows
