@@ -1,1 +1,21 @@
-
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1,Vol. 1
+https://archive.org/download/395AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%201.mp4
+#EXTINF:-1,Vol. 2
+https://archive.org/download/396AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%202.mp4
+#EXTINF:-1,Vol. 3
+https://archive.org/download/868AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%203.mp4
+#EXTINF:-1,Vol. 4
+https://archive.org/download/1540AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%204.mp4
+#EXTINF:-1,Vol. 5
+https://archive.org/download/670AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%205.mp4
+#EXTINF:-1,Vol. 6
+https://archive.org/download/798AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%206.mp4
+#EXTINF:-1,Vol. 7
+https://archive.org/download/1072AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%207.mp4
+#EXTINF:-1,Special Edition 1988
+https://archive.org/download/652_20220128/Walt%20Disney%20Cartoon%20Classics%20Special%20Edition%20%2788.mp4
+#EXTINF:-1,Special Edition 1992
+https://archive.org/download/1455AS/Walt%20Disney%20Cartoon%20Classics%20Special%20Edition%20%2792.mp4
+#EXT-X-ENDLIST
