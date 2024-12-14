@@ -4,14 +4,8 @@
 https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4
 
 # Movies
-#EXTINF:6600 group-title="Channel 2",The Thing (1982)
-https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4
-#EXTINF:6120 group-title="Channel 2",Casper (1995)
-https://ia802802.us.archive.org/16/items/casper_201912/CASPER.mp4
-#EXTINF:6240 group-title="Channel 2",Hocus Pocus (1993)
-https://archive.org/download/hocus-pocus_202312/Hocus%20Pocus.mp4
-#EXTINF:6480 group-title="Channel 2",Ghostbusters (1985)
-https://archive.org/download/ghostbusters-from-the-original-vhs-release-in-1985/Ghostbusters%20from%20the%20Original%20VHS%20Release%20in%201985.ia.mp4
+#EXTINF:6600 group-title="Movies"
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/movies_playlist.m3u8
 
 # TV Shows
 #EXTINF:3600 group-title="Channel 3",Cartoon Cartoon Fridays (2000) - Part 1
