@@ -12,3 +12,5 @@ https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies_
 https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoon_network_channel.m3u8
 #EXTINF:-1 group-title="Cartoons",Kids WB
 https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/WB_channel.m3u8
+#EXTINF:-1 group-title="Cartoons",ABC
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/abc_channel.m3u8
