@@ -1,24 +1,14 @@
 #EXTM3U
 # Christmas Specials
-#EXTINF:6600 group-title="Channel 1",WJBK Christmas Specials (1990)
+#EXTINF:6600 group-title="Specials",WJBK Christmas Specials (1990)
 https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4
 
 # Movies
-#EXTINF:-1 group-title="Movies",Channel 2
+#EXTINF:-1 group-title="Movies",VHS Movies
 https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/movies_playlist.m3u8
 
-# TV Shows
-#EXTINF:3600 group-title="Channel 3",Cartoon Cartoon Fridays (2000) - Part 1
-https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.mp4
-#EXTINF:3600 group-title="Channel 3",Cartoon Cartoon Fridays (2000) - Part 2
-https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.mp4
-#EXTINF:3600 group-title="Channel 3",Cartoon Cartoon Fridays (2000) - Part 3
-https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_3.mp4
-#EXTINF:3660 group-title="Channel 3",Cartoon Cartoon Fridays (2000) - Part 4
-https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_4.mp4
-#EXTINF:5201 group-title="Channel 4",Kids WB (2001) - Part 1
-https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_1.mp4
-#EXTINF:5242 group-title="Channel 4",Kids WB (2001) - Part 2
-https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_2.mp4
-#EXTINF:4529 group-title="Channel 4",Kids WB (2001) - Part 3
-https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC%20%28Monster%20Rancher%20Batman%20Beyond%20Pokemon%20Yu-Gi-Oh%20Dragon%20Ball%20Z%20Mobile%20Suit%20Gundam%20Cartoon%20Network%27s%20Toonami%20Block%20On%20Kids%20WB%20July%202001%20Full%20Recording%20WOC%29/VTS_01_3.mp4
+# Cartoons
+#EXTINF:-1 group-title="Cartoons",Cartoon Network
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/cartoon_network_playlist.m3u8
+#EXTINF:-1 group-title="Cartoons",Kids WB
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/WB_playlist.m3u8
