@@ -5,10 +5,10 @@ https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-anim
 
 # Movies
 #EXTINF:-1 group-title="Movies",VHS Movies
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/movies_playlist.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies_channel.m3u8
 
 # Cartoons
 #EXTINF:-1 group-title="Cartoons",Cartoon Network
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/cartoon_network_playlist.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoon_network_channel.m3u8
 #EXTINF:-1 group-title="Cartoons",Kids WB
-https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/WB_playlist.m3u8
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/WB_channel.m3u8
