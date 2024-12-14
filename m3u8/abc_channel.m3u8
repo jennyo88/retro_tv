@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1,ABC Saturday Morning Cartoons (1993) - Part 1
+https://archive.org/download/vts-01-2_20200824/ABC%20Saturday%20Morning%20Cartoons%20%208-21-93%20WOC/VIDEO_TS/VTS_01_1.mp4
+#EXTINF:-1,ABC Saturday Morning Cartoons (1993) - Part 2
+https://archive.org/download/vts-01-2_20200824/ABC%20Saturday%20Morning%20Cartoons%20%208-21-93%20WOC/VIDEO_TS/VTS_01_2.mp4
+#EXTINF:-1,ABC Saturday Morning Cartoons (1993) - Part 3
+https://archive.org/download/vts-01-2_20200824/ABC%20Saturday%20Morning%20Cartoons%20%208-21-93%20WOC/VIDEO_TS/VTS_01_3.mp4
+#EXTINF:-1,ABC Saturday Morning Cartoons (1993) - Part 4
+https://archive.org/download/vts-01-2_20200824/ABC%20Saturday%20Morning%20Cartoons%20%208-21-93%20WOC/VIDEO_TS/VTS_01_4.mp4
+#EXTINF:-1,ABC Saturday Morning Cartoons (1993) - Part 5
+https://archive.org/download/vts-01-2_20200824/ABC%20Saturday%20Morning%20Cartoons%20%208-21-93%20WOC/VIDEO_TS/VTS_01_5.mp4
+#EXT-X-ENDLIST
