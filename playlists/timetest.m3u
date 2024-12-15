@@ -1,0 +1,22 @@
+#EXTM3U
+
+# Movies
+#EXTINF:-1 group-title="Movies",Casper
+#EXTVLCOPT:start-time=3600
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/movies_channel.m3u8
+#EXTINF:-1 group-title="Movies",VHS Movies
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/movies_channel.m3u8
+#EXTINF:-1 group-title="Movies",Walt Disney Cartoon Classics
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/Walt_Disney_classics_channel.m3u8
+
+# Holidays
+#EXTINF:6600 group-title="Holidays",Christmas Specials
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/holidays/christmas_channel.m3u8
+
+# Cartoons
+#EXTINF:-1 group-title="Cartoons",Cartoon Network
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/cartoon_network_channel.m3u8
+#EXTINF:-1 group-title="Cartoons",Kids WB
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/WB_channel.m3u8
+#EXTINF:-1 group-title="Cartoons",ABC
+https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/abc_channel.m3u8
