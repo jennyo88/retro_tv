@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Retro TV XMLTV Generator" generator-info-url="https://github.com/jennyo88/retro_tv">
+    
+    <!-- Holidays Channel -->
+    <channel id="ChristmasSpecials">
+        <display-name>Christmas Specials</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/holidays/christmas_channel.m3u8</url>
+    </channel>
+    
+    <!-- Movies Channels -->
+    <channel id="VHSMovies">
+        <display-name>VHS Movies</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/movies_channel.m3u8</url>
+    </channel>
+    <channel id="DisneyCartoonClassics">
+        <display-name>Walt Disney Cartoon Classics</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/movies/Walt_Disney_classics_channel.m3u8</url>
+    </channel>
+
+    <!-- Cartoons Channels -->
+    <channel id="CartoonNetwork">
+        <display-name>Cartoon Network</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/cartoon_network_channel.m3u8</url>
+    </channel>
+    <channel id="KidsWB">
+        <display-name>Kids WB</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/WB_channel.m3u8</url>
+    </channel>
+    <channel id="ABC">
+        <display-name>ABC</display-name>
+        <url>https://raw.githubusercontent.com/jennyo88/retro_tv/refs/heads/main/m3u8/cartoons/abc_channel.m3u8</url>
+    </channel>
+
+    <!-- Example Programs -->
+
+    <!-- Christmas Specials Programs -->
+    <programme start="20241215060000 +0000" stop="20241215074500 +0000" channel="ChristmasSpecials">
+        <title lang="en">Christmas Cartoons & Stop Animation (1988)</title>
+        <desc lang="en">A nostalgic selection of Christmas cartoons and stop-motion animation.</desc>
+        <url>https://archive.org/download/vhs-tape-1988-christmas-cartoons-stop-animation/VHS%20Tape%20-%201988%20Christmas%20Cartoons%20%26%20Stop%20Animation.ia.mp4</url>
+    </programme>
+    <programme start="20241215074500 +0000" stop="20241215090000 +0000" channel="ChristmasSpecials">
+        <title lang="en">WJBK Christmas Specials (1990)</title>
+        <desc lang="en">Vintage Christmas specials aired on WJBK in December 1990.</desc>
+        <url>https://archive.org/download/vhs-tape-december-1990-wjbk-christmas-cartoons-animations-soap-opera-specials/VHS%20Tape%20-%20December%201990%20-%20WJBK%20-%20Christmas%20Cartoons%2C%20Animations%20%26%20Soap%20Opera%20Specials.mp4</url>
+    </programme>
+    <programme start="20241215090000 +0000" stop="20241215103000 +0000" channel="ChristmasSpecials">
+        <title lang="en">Winnie the Pooh and Christmas Too (1991)</title>
+        <desc lang="en">A classic Winnie the Pooh Christmas story from 1991.</desc>
+        <url>https://archive.org/download/3944AS/Pooh%20Holiday.mp4</url>
+    </programme>
+    <programme start="20241215103000 +0000" stop="20241215111500 +0000" channel="ChristmasSpecials">
+        <title lang="en">Frosty (1993)</title>
+        <desc lang="en">A beloved Christmas tale featuring Frosty the Snowman.</desc>
+        <url>https://archive.org/download/frosty-1993-vhs/Frosty%201993%20VHS.mp4</url>
+    </programme>
+
+    <!-- VHS Movies Programs -->
+    <programme start="20241215111500 +0000" stop="20241215121500 +0000" channel="VHSMovies">
+        <title lang="en">The Thing</title>
+        <desc lang="en">John Carpenter's 1982 sci-fi horror masterpiece.</desc>
+        <url>https://archive.org/download/the-thing-1982-vhs/The%20Thing%201982%20VHS%20.mp4</url>
+    </programme>
+
+    <!-- Walt Disney Cartoon Classics Programs -->
+    <programme start="20241215121500 +0000" stop="20241215131500 +0000" channel="DisneyCartoonClassics">
+        <title lang="en">Walt Disney Cartoon Classics - Vol. 1</title>
+        <desc lang="en">The first volume of Walt Disney's Cartoon Classics, featuring timeless animated shorts.</desc>
+        <url>https://archive.org/download/395AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%201.mp4</url>
+    </programme>
+    <programme start="20241215131500 +0000" stop="20241215141500 +0000" channel="DisneyCartoonClassics">
+        <title lang="en">Walt Disney Cartoon Classics - Vol. 2</title>
+        <desc lang="en">The second volume of Walt Disney's Cartoon Classics series.</desc>
+        <url>https://archive.org/download/396AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%202.mp4</url>
+    </programme>
+    <programme start="20241215141500 +0000" stop="20241215151500 +0000" channel="DisneyCartoonClassics">
+        <title lang="en">Walt Disney Cartoon Classics - Vol. 3</title>
+        <desc lang="en">The third volume of Walt Disney's Cartoon Classics series.</desc>
+        <url>https://archive.org/download/868AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%203.mp4</url>
+    </programme>
+    <programme start="20241215151500 +0000" stop="20241215161500 +0000" channel="DisneyCartoonClassics">
+        <title lang="en">Walt Disney Cartoon Classics - Vol. 4</title>
+        <desc lang="en">The fourth volume of Walt Disney's Cartoon Classics series.</desc>
+        <url>https://archive.org/download/1540AS/Walt%20Disney%20Cartoon%20Classics%20Vol.%204.mp4</url>
+    </programme>
+
+    <!-- Cartoon Network Programs -->
+    <programme start="20241215161500 +0000" stop="20241215171500 +0000" channel="CartoonNetwork">
+        <title lang="en">Cartoon Cartoon Fridays (2000) - Part 1</title>
+        <desc lang="en">The Mayor hosts the iconic Cartoon Cartoon Fridays block from 2000.</desc>
+        <url>https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_1.mp4</url>
+    </programme>
+    <programme start="20241215171500 +0000" stop="20241215181500 +0000" channel="CartoonNetwork">
+        <title lang="en">Cartoon Cartoon Fridays (2000) - Part 2</title>
+        <desc lang="en">More iconic shows from Cartoon Cartoon Fridays, 2000.</desc>
+        <url>https://archive.org/download/CCF-2000/Cartoon%20Cartoon%20Fridays%202000%20The%20Mayor%20Hosts/VIDEO_TS/VTS_01_2.mp4</url>
+    </programme>
+
+    <!-- Kids WB Programs -->
+    <programme start="20241215181500 +0000" stop="20241215191500 +0000" channel="KidsWB">
+        <title lang="en">Kids WB (2001) - Part 1</title>
+        <desc lang="en">A nostalgic full block from Kids WB in 2001, featuring popular shows of the era.</desc>
+        <url>https://archive.org/download/kids-wb-cartoon-network-toonami-full-block-july-2001-woc-monster-rancher-batman-/Kids%20WB%20Cartoon%20Network%20Toonami%20Full%20Block%20July%202001%20WOC.mp4</url>
+    </programme>
+
+    <!-- ABC Programs -->
+    <programme start="20241215191500 +0000" stop="20241215201500 +0000" channel="ABC">
+        <title lang="en">ABC Morning Cartoons</title>
+        <desc lang="en">A collection of morning cartoons from ABC's golden years.</desc>
+        <url>https://example.com/abc/morning_cartoons.mp4</url>
+    </programme>
+</tv>
